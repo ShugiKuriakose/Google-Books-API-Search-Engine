@@ -22,8 +22,14 @@ const displayBook = {
 const Header = () => {
   return (
     <div className={styles.Header}>
-      {" "}
-      <h1>Search Your Next Book</h1>{" "}
+      <h1>
+        Search Your Next Book
+        <p>
+          <em>
+            "There is only one thing that could replace a book: The Next Book"
+          </em>
+        </p>
+      </h1>
     </div>
   );
 };
