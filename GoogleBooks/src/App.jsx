@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg";
 import styles from "./App.module.scss";
 import { SearchBar } from "./components/SearchBar/SearchBar";
 import { BookList } from "./components/BookList/BookList";
+import { BookList1 } from "./components/BookList/BookList1";
 import BookCard from "./components/BookCard/BookCard";
 
 const displayBook = {
@@ -56,7 +57,7 @@ function App() {
         <Header />
         <SearchBar fetchSearchString={fetchSearchString} />
         <h4> Search Results for "{searchString}" :</h4>
-        <BookList results={books} />
+        <BookList1 results={books} />
       </div>
     );
   } else {
